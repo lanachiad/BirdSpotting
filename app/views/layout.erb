@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Barrio|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="/css/homepage.css">
+  <link rel="stylesheet" href="/css/all-birds.css">
+  <link rel="stylesheet" href="/css/one-bird.css">
+  <link rel="stylesheet" href="/css/find-bird.css">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="/js/application.js"></script>
+
+  <title>BirdSpotting</title>
+</head>
+<body>
+  <div class="container">
+    <div id="nav-section">
+      <div id="logo">
+        <h1><a href="/">BirdSpotting</a></h1>
+      </div>
+      <div id="navigation">
+        <ul>
+          <li><a href="/birds/identify">Find A Bird</a></li>
+            <span>|</span>
+          <li><a href="/birds">All The Birds</a></li>
+        </ul>
+      </div>
+    </div>
+    <%= yield %>
+  </div>
+</body>
+</html>

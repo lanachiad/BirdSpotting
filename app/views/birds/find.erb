@@ -1,0 +1,54 @@
+<h2>Let's Identify That Bird</h2>
+<div class="form">
+	<div class="form-wrapper">
+		<form id="bird-id-form" action="/birds/identify" method="post">
+			<div id="primary-color">
+				<label for="primary-color">What was the primary color?</label>
+				<select name="primary-color">
+					<option value="primary-color">Primary Color</option>
+					<option name="bird[primary-color]" value="black">Black</option>
+					<option name="bird[primary-color]" value="white">White</option>
+					<option name="bird[primary-color]" value="gray">Gray</option>
+					<option name="bird[primary-color]" value="gray-brown">Gray-Brown</option>
+					<option name="bird[primary-color]" value="brown">Brown</option>
+					<option name="bird[primary-color]" value="blue">Blue</option>
+					<option name="bird[primary-color]" value="yellow">Yellow</option>
+				</select>
+			</div>
+			<div id="secondary-color">
+				<label for="secondary-color">What was the secondary color?</label>
+				<select name="secondary-color">
+					<option value="secondary-color">Secondary Color</option>
+					<option name="bird[secondary-color]" value="black">Black</option>
+					<option name="bird[secondary-color]" value="white">White</option>
+					<option name="bird[secondary-color]" value="gray">Gray</option>
+					<option name="bird[secondary-color]" value="gray-brown">Gray-Brown</option>
+					<option name="bird[secondary-color]" value="brown">Brown</option>
+					<option name="bird[secondary-color]" value="blue">Blue</option>
+					<option name="bird[secondary-color]" value="yellow">Yellow</option>
+				</select>
+			</div>
+			<div id="call-description">
+				<label for="call-description">What was the closest description to its call?</label>
+				<select name="call-description">
+					<option value="call-description">Call Description</option>
+					<option name="bird[call-description]" value="caw">"Caw"</option>
+					<option name="bird[call-description]" value="squeak">"Squeak"</option>
+					<option name="bird[call-description]" value="hoot">"Hoot"</option>
+					<option name="bird[call-description]" value="song-like">Song-Like</option>
+				</select>
+			</div>
+			<div id="habitat">
+				<label for="habitat">Where did you see this bird?</label>
+				<select name="habitat">
+					<option value="habitat">Habitat</option>
+					<option name="bird[habitat]" value="forest">Forest</option>
+					<option name="bird[habitat]" value="city">City</option>
+					<option name="bird[habitat]" value="woodland">Woodland</option>
+					<option name="bird[habitat]" value="scrub">Scrub</option>
+				</select>
+			</div>
+			<input class="submit-button" type="submit" value="Find That Bird" />
+		</form>
+	</div>
+</div>

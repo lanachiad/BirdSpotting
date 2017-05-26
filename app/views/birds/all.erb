@@ -1,0 +1,12 @@
+<h2>Check Out Those Birds</h2>
+<div id="all-birds-section">
+	<% @birds.each do |bird| %>
+	<a id="<%= bird.id %>" class="bird-link" href="/birds/<%= bird.id %>">
+		<div class="bird-card">
+			<div id="dialog" title="<%= bird.common_name %>"></div>
+			<img src="<%= bird.img %>" />
+			<p><%= bird.common_name %></p>
+		</div>
+	</a>
+	<% end %>
+</div>

@@ -1,0 +1,39 @@
+#one-bird-section {
+	display: block;
+	margin-top: 50px;
+}
+
+#one-bird-section img {
+	border: 2px #BF4E30 solid;
+	display: table;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.bird-info {
+	margin: 30px;
+}
+
+.bird-info h3 {
+	font-size: 25px;
+}
+
+.bird-info p {
+	font-size: 18px;
+}
+
+.bird-common, .bird-scientific, .bird-description, .bird-habitat, .bird-nesting, .bird-map {
+	margin: 20px 0;
+}
+
+.bird-scientific p {
+	font-style: italic;
+}
+
+#map {
+	border: 2px #BF4E30 solid;
+	display: table;
+	height: 500px;
+	margin: 0 auto;
+	width: 500px;
+}

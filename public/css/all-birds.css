@@ -1,0 +1,28 @@
+#all-birds-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.bird-card {
+	background-color: #fff;
+	border: 2px #BF4E30 solid;
+	border-radius: 3px;
+	margin: 20px;
+	width: 300px;
+}
+
+.bird-card img {
+	display: table;
+	height: 250px;
+	margin: 0 auto;
+	width: 300px;
+}
+
+.bird-card p {
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 0;
+	text-align: center;
+}

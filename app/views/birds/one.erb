@@ -1,0 +1,9 @@
+<h2><%= @bird.common_name %></h2>
+<div id="one-bird-section">
+	<img src="<%= @bird.img %>" />
+	<div class="bird-info">
+		<%= erb :'/birds/_bird_info', layout: false, locals: {bird: @bird} %>
+	</div>
+</div>
+
+<!-- Add a region attribute of an array with different regions, in ERB iterate through the array and display regions -->
